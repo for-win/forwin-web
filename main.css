@@ -1,0 +1,66 @@
+
+html {
+	background-color: black;
+} 
+
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+	.main.box{
+		position: relative;
+		width: 100%;
+		height: 100%;
+		margin: 0px auto;
+		overflow: hidden;
+	}
+	
+	.main-top {
+		position: absolute;
+		top: 40%;
+		width: 100%;	
+	}
+    .mid {
+		margin-top: -25px;
+		font-size: 250%;
+		color: red;
+		text-align: center;
+		
+    }
+
+	.mid2 {
+
+		width: 100%;
+		font-size: xx-large;
+		font-family: fantasy;
+		color: blue;
+		text-align: center;
+		/* animation: loadingJ 2s cubic-bezier(0.17, 0.37, 0.43, 0.67) infinite;  */
+
+	}
+	
+	#btn {
+		position: absolute;
+		left: 42%;
+		color: gold;
+		background: black;
+		font-size: 45px;
+
+	}
+	
+	#bg-video {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		opacity: .4;
+	}
+	
+@keyframes loadingJ {
+
+  30% {
+    transform: translate(5%, 0);
+    width: 100%;
+
+}
+}
